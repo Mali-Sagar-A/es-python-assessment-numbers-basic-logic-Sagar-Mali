@@ -1,17 +1,7 @@
-# evenodd
+Sagar Ashok Mali
 
-Small utility to check whether an integer is even or odd.
+Submission date: 2026-08-25
 
-Usage:
+Brief explanation of my approach:
 
-Run the CLI (prompts for input if no argument provided):
-
-```bash
-python evenodd.py 3
-```
-
-Run the tests:
-
-```bash
-python test_runner.py
-```
+I implemented small, clear functions that demonstrate the requested concepts. `even_or_odd(n)` uses the modulus operator to determine parity and returns "Even" or "Odd". `add_all(numbers)` uses an explicit loop with an accumulator to sum values. A simple CLI and tests were added to exercise these functions.
