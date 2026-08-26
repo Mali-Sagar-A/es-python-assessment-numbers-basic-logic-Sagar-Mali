@@ -1,31 +1,15 @@
-"""Simple even/odd utility.
 
-Provides a function `even_or_odd` and a small CLI so this file can be
-run directly.
-"""
 
 from typing import Any
 
 
 def even_or_odd(n: int) -> str:
-    """Return "Even" if n is even, otherwise "Odd".
-
-    Args:
-        n: Integer to check.
-
-    Returns:
-        A string, either "Even" or "Odd".
-    """
+    
     return "Even" if n % 2 == 0 else "Odd"
 
 
 def main(argv: Any = None) -> None:
-    """Small CLI entrypoint. Accepts an optional integer argument.
-
-    Usage examples:
-        python evenodd.py 3
-        python evenodd.py    # prompts for input
-    """
+   
     import argparse
 
     parser = argparse.ArgumentParser(description="Check if a number is even or odd")
