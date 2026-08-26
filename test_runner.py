@@ -1,4 +1,4 @@
-"""Minimal test runner for `even_or_odd` and `add_all`."""
+
 
 from evenodd import even_or_odd
 from sum_list import add_all
